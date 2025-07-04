@@ -1,12 +1,28 @@
-# React + Vite
+# 📝 NerdLed Blog
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack blogging platform built with **React**, **Appwrite**, and **Redux**, designed for seamless post creation, editing, and image uploads.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+👉 [nerdled-blog.netlify.app](https://nerdled-blog.netlify.app)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚙️ Features
+
+- 🔐 User authentication (Email + Google login)
+- 🖊️ Create, edit, and delete blog posts
+- 🖼️ Upload and preview featured images
+- 🗃️ Public and private post visibility
+- 🧠 Rich Text Editor (Tiny-MCE)
+- ⚡ Smooth UX with form validation and feedback
+- 🧠 Redux for caching and global state
+- 🎯 Fully responsive & production-ready
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React, Tailwind CSS, Redux Toolkit
+- **Backend:** Appwrite (Auth, Database, Storage)
+- **Deployment:** Netlify
